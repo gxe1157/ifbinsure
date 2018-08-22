@@ -42,6 +42,7 @@ function index()
 
 function email_received()
 {
+
     $data['custom_jscript'] = '';
     $data['page_url']       = 'email_received';
     $data['page_title']     = 'Email Received';
@@ -83,7 +84,7 @@ function send()
               $this->email_message($email, $subject, $compose_message );
           }
 
-          redirect( $this->main_controller.'/email_received');            
+          redirect( base_url().$this->main_controller.'/email_received');            
         }
 
     }

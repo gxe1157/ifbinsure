@@ -1,8 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-if ( ! function_exists('checkArray'))
+if ( ! function_exists('dd'))
 {
-	function checkArray( $array = array(), $exit){
+	function dd( $array = array(), $exit){
 		echo "<pre>";
 		print_r($array);
 		echo "</pre>";
@@ -12,9 +12,9 @@ if ( ! function_exists('checkArray'))
 	}
 }
 
-if ( ! function_exists('checkField'))
+if ( ! function_exists('ddf'))
 {
-	function checkField( $fld = null, $exit){
+	function ddf( $fld = null, $exit){
 		echo "<h4>fld| ".$fld." |</h4>";
 		if( empty($exit) ){
 			exit();  

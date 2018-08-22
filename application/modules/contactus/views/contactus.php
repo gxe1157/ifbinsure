@@ -113,8 +113,10 @@
 							<?= form_error('message', '<div class="error">', '</div>'); ?>
 						</div>
 						<div class="text-right"><br>
-							<button class="btn btn-primary solid blank" type="submit"
-							        name="submit" value="Submit">Send Message</button> 
+							<button class="btn btn-primary solid blank"
+									type="submit"
+							        name="submit"
+							        value="Submit">Send Message</button> 
 						</div>
 					</form>
 	    		</div>
